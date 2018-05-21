@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="testcase.Pagetitle_TC">
+        <methods>
+          <include name="pagettitle_teardown"/>
+        </methods>
+      </class> <!-- testcase.Pagetitle_TC -->
+      <class name="testcase.Search_Results_TC">
+        <methods>
+          <include name="Search_result_ispresent" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- testcase.Search_Results_TC -->
+      <class name="testcase.Login_valid_TC">
+        <methods>
+          <include name="loginvalidtc_teardown"/>
+        </methods>
+      </class> <!-- testcase.Login_valid_TC -->
+      <class name="Reports.ExtentReportClass">
+        <methods>
+          <include name="Report_Close"/>
+          <include name="Report"/>
+        </methods>
+      </class> <!-- Reports.ExtentReportClass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

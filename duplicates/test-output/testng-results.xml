@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="79800" started-at="2018-05-21T16:24:12Z" finished-at="2018-05-21T16:25:32Z">
+    <groups>
+      <group name="smoke">
+        <method signature="User_Creation_TC.user_creation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcase.User_Creation_TC@3f49dace]" name="user_creation" class="testcase.User_Creation_TC"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="79800" started-at="2018-05-21T16:24:12Z" finished-at="2018-05-21T16:25:32Z">
+      <class name="testcase.Pagetitle_TC">
+        <test-method status="PASS" signature="pagetitle_verify()[pri:0, instance:testcase.Pagetitle_TC@59ec2012]" name="pagetitle_verify" duration-ms="2093" started-at="2018-05-21T21:54:33Z" finished-at="2018-05-21T21:54:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pagetitle_verify -->
+      </class> <!-- testcase.Pagetitle_TC -->
+      <class name="testcase.Login_valid_TC">
+        <test-method status="PASS" signature="Login_user_valid()[pri:0, instance:testcase.Login_valid_TC@31a5c39e]" name="Login_user_valid" duration-ms="7372" started-at="2018-05-21T21:54:20Z" finished-at="2018-05-21T21:54:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_user_valid -->
+      </class> <!-- testcase.Login_valid_TC -->
+      <class name="testcase.Add_salary_TC">
+        <test-method status="PASS" signature="addsalary(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcase.Add_salary_TC@402a079c]" name="addsalary" duration-ms="3102" started-at="2018-05-21T21:55:29Z" data-provider="Add_Salary" finished-at="2018-05-21T21:55:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Executive]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Monthly on first pay of month.]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[United States Dollar]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10000.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Test Comment]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1.234567891212E12]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[SAVINGS]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[123.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[600000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addsalary -->
+      </class> <!-- testcase.Add_salary_TC -->
+      <class name="testcase.Addnewemp_TC">
+        <test-method status="PASS" signature="addnewemployee(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcase.Addnewemp_TC@6500df86]" name="addnewemployee" duration-ms="10561" started-at="2018-05-21T21:55:18Z" data-provider="Add_Employee" finished-at="2018-05-21T21:55:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jitendra]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rout]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addnewemployee -->
+      </class> <!-- testcase.Addnewemp_TC -->
+      <class name="Core.Core_Basic">
+        <test-method status="PASS" signature="launchbrowserI(java.lang.String)[pri:0, instance:Core.Core_Basic@e45f292]" name="launchbrowserI" duration-ms="8129" started-at="2018-05-21T21:54:12Z" finished-at="2018-05-21T21:54:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowserI -->
+      </class> <!-- Core.Core_Basic -->
+      <class name="Reports.ExtentReportClass">
+        <test-method status="PASS" signature="Report()[pri:0, instance:Reports.ExtentReportClass@5700d6b1]" name="Report" is-config="true" duration-ms="935" started-at="2018-05-21T21:54:11Z" finished-at="2018-05-21T21:54:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Report -->
+        <test-method status="PASS" signature="Report_Close()[pri:0, instance:Reports.ExtentReportClass@5700d6b1]" name="Report_Close" is-config="true" duration-ms="334" started-at="2018-05-21T21:55:33Z" finished-at="2018-05-21T21:55:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Report_Close -->
+      </class> <!-- Reports.ExtentReportClass -->
+      <class name="testcase.AssignLeave_TC">
+        <test-method status="PASS" signature="leave_assignement()[pri:0, instance:testcase.AssignLeave_TC@42dafa95]" name="leave_assignement" duration-ms="14752" started-at="2018-05-21T21:55:03Z" finished-at="2018-05-21T21:55:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leave_assignement -->
+      </class> <!-- testcase.AssignLeave_TC -->
+      <class name="testcase.Delete_Record_TC">
+        <test-method status="PASS" signature="delete_usingserach(java.lang.String, java.lang.String)[pri:0, instance:testcase.Delete_Record_TC@5f2108b5]" name="delete_usingserach" duration-ms="6217" started-at="2018-05-21T21:54:56Z" data-provider="Delete_test_data" finished-at="2018-05-21T21:55:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ test1_emp]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Fiona Grace]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_usingserach -->
+      </class> <!-- testcase.Delete_Record_TC -->
+      <class name="testcase.User_Creation_TC">
+        <test-method status="PASS" signature="user_creation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcase.User_Creation_TC@3f49dace]" name="user_creation" duration-ms="12448" started-at="2018-05-21T21:54:38Z" data-provider="testdata_Users" finished-at="2018-05-21T21:54:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hashim Omer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Amaresh Kumar Rout]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Enabled]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test@1234]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_creation -->
+      </class> <!-- testcase.User_Creation_TC -->
+      <class name="testcase.Search_Results_TC">
+        <test-method status="PASS" signature="Search_result_ispresent(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcase.Search_Results_TC@5bcab519]" name="Search_result_ispresent" duration-ms="5739" started-at="2018-05-21T21:54:50Z" data-provider="Search_Users_Data" finished-at="2018-05-21T21:54:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amaresh1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hashim Omer]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Enabled]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_result_ispresent -->
+      </class> <!-- testcase.Search_Results_TC -->
+      <class name="testcase.Login_Invalid_TC">
+        <test-method status="PASS" signature="Login_user_Invalid()[pri:0, instance:testcase.Login_Invalid_TC@13deb50e]" name="Login_user_Invalid" duration-ms="5859" started-at="2018-05-21T21:54:27Z" finished-at="2018-05-21T21:54:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_user_Invalid -->
+      </class> <!-- testcase.Login_Invalid_TC -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

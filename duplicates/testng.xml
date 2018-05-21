@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="Listners.Mylistners"></listener>
+</listeners>
+<parameter name="browser" value="chrome"/>
+  <test name="Test">
+  
+  
+  <classes>
+  <class name="Reports.ExtentReportClass"/>
+  <class name="Core.Core_Basic"/>
+  <class name="testcase.Login_valid_TC"/>
+  <class name="testcase.Login_Invalid_TC"/> 
+  <class name="testcase.Pagetitle_TC"/>
+  <class name="testcase.User_Creation_TC"/>
+  <class name="testcase.Search_Results_TC"/> 
+  <class name="testcase.Delete_Record_TC"/>
+  <class name="testcase.AssignLeave_TC"/>
+  <class name="testcase.Addnewemp_TC"/>
+  <class name="testcase.Add_salary_TC"/>
+ </classes>
+  
+
+ 
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
